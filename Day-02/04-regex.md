@@ -7,3 +7,6 @@
 - Common metacharacters: `.` (any character), `*` (zero or more), `+` (one or more), `?` (zero or one), `[]` (character class), `|` (OR), `^` (start of a line), `$` (end of a line), etc.
 - Examples of regex usage: matching emails, phone numbers, or extracting data from text.
 - `re` module functions include `re.match()`, `re.search()`, `re.findall()`, and `re.sub()` for pattern matching and replacement.
+- re.match() only checks for a match at the beginning of the string.
+- re.search() scans the entire string and finds the first occurrence of the pattern.It checks anywhere, not just the start.
+- search.group() returns the matched text
